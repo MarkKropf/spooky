@@ -1,3 +1,6 @@
+# Ignore real config files
+config.json
+
 # Logs
 logs
 *.log
