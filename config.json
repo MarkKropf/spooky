@@ -1,0 +1,71 @@
+{
+  "host": "192.168.1.128",
+  "serverPort": "10005",
+  "clientPort": "10006",
+  "dmxGateway": "192.168.1.10",
+  "spiDev": "/dev/spidev0.0",
+  "fixtures": [
+  {
+    "fixtureId": "1",
+    "name": "Dimmer1",
+    "fixtureType": "ed15",
+    "commType": "dmx",
+    "channels": 4,
+    "startAddress": 1,
+    "oscAddress": "/dimmer1"
+  },
+  { "fixtureId": "2",
+    "name": "Dimmer2",
+    "fixtureType": "ed15",
+    "commType": "dmx",
+    "channels": 4,
+    "startAddress": 5,
+    "oscAddress": "/dimmer2"
+  },
+  {
+    "fixtureId": "3",
+    "name": "Vue 6.1",
+    "fixtureType": "vue61",
+    "commType": "dmx",
+    "startAddress": 9,
+    "channels": 6,
+    "mode": "1",
+    "pod1": "2",
+    "pod2": "3",
+    "pod3": "4",
+    "strobeSpeed": "5",
+    "motorSpeed": "6",
+    "oscAddress": "/vue61"
+  },
+  {
+    "fixtureId": "4",
+    "name": "Hazer",
+    "fixtureType": "hazer",
+    "commType": "dmx",
+    "startAddress": 15,
+    "channels": 2,
+    "oscAddress": "/hazer"
+  },
+  {
+    "fixtureId": "5",
+    "name": "Pixels",
+    "fixtureType": "pixel",
+    "commType": "octobar",
+    "count": "40",
+    "startup": "0,0,0",
+    "oscAddress": "/pixels"
+  }
+  ],
+  "groups": [
+  {
+    "name": "All",
+    "ids": [ {"deviceId":"1"}, {"deviceId":"2"}, {"deviceId":"3"}, {"deviceId":"4"} ],
+    "oscAddress": "/all"
+  },
+  {
+    "name": "Dimmers",
+    "ids": [ {"deviceId":"1"}, {"deviceId":"2"} ],
+    "oscAddress": "/dimmers"
+  }
+  ]
+}

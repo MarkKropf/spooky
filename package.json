@@ -1,0 +1,24 @@
+{
+  "name": "spooky",
+  "description": "Control and automate all the things",
+  "version": "0.0.1-1",
+  "author": "Mark Kropf",
+  "private": true,
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "nconf": "*",
+    "underscore": "*",
+    "request": "*",
+    "a2r-osc": "*",
+    "artnet-node": "*",
+    "cron": "*",
+    "spi": "*",
+    "pi-gpio": "*"
+  },
+  "subdomain": "coil",
+  "scripts": {
+    "start": "node spooky.js"
+  }
+}
