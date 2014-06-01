@@ -59,6 +59,7 @@
     "fixtureId": "6",
     "name": "Colorado 72",
     "fixtureType": "colorado72",
+    "mode": "tour",
     "commType": "dmx",
     "startAddress": 17,
     "channels": 15,
