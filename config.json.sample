@@ -54,6 +54,15 @@
     "count": "40",
     "startup": "0,0,0",
     "oscAddress": "/pixels"
+  },
+  {
+    "fixtureId": "6",
+    "name": "Colorado 72",
+    "fixtureType": "colorado72",
+    "commType": "dmx",
+    "startAddress": 17,
+    "channels": 15,
+    "oscAddress": "/colorado72"
   }
   ],
   "groups": [

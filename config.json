@@ -1,8 +1,8 @@
 {
-  "host": "192.168.1.128",
+  "host": "10.0.0.114",
   "serverPort": "10005",
   "clientPort": "10006",
-  "dmxGateway": "192.168.1.10",
+  "dmxGateway": "10.0.0.4",
   "spiDev": "/dev/spidev0.0",
   "fixtures": [
   {
@@ -24,36 +24,21 @@
   },
   {
     "fixtureId": "3",
-    "name": "Vue 6.1",
-    "fixtureType": "vue61",
+    "name": "Colorado 72",
+    "fixtureType": "colorado72",
     "commType": "dmx",
     "startAddress": 9,
-    "channels": 6,
-    "mode": "1",
-    "pod1": "2",
-    "pod2": "3",
-    "pod3": "4",
-    "strobeSpeed": "5",
-    "motorSpeed": "6",
-    "oscAddress": "/vue61"
+    "channels": 15,
+    "oscAddress": "/colorado72"
   },
   {
     "fixtureId": "4",
-    "name": "Hazer",
-    "fixtureType": "hazer",
+    "name": "Colorado 72",
+    "fixtureType": "colorado72",
     "commType": "dmx",
-    "startAddress": 15,
-    "channels": 2,
-    "oscAddress": "/hazer"
-  },
-  {
-    "fixtureId": "5",
-    "name": "Pixels",
-    "fixtureType": "pixel",
-    "commType": "octobar",
-    "count": "40",
-    "startup": "0,0,0",
-    "oscAddress": "/pixels"
+    "startAddress": 24,
+    "channels": 15,
+    "oscAddress": "/colorado72"
   }
   ],
   "groups": [
