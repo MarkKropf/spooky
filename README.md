@@ -20,4 +20,5 @@ A sample OSC template is included for use with TouchOSC.
 ![image](https://github.com/MarkKropf/spooky/raw/master/touchosc/spooky_touchosc.png)
 
 **New support for Chauvet Colorado 72 Tour fixture**
+
 ![image](https://github.com/MarkKropf/spooky/raw/master/touchosc/colorado72.png)
