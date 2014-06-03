@@ -21,6 +21,7 @@
     "test": "mocha test/*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "codeclimate-test-reporter": "*"
   }
 }
