@@ -4,7 +4,7 @@ var nconf = require('nconf');
 
   describe('emitter', function(){
     it('should emit an initialized', function(done){
-      nconf.file({ file: 'config.json'});
+      nconf.file({ file: 'config.json.sample'});
       spookyDmx.emitter.on('initialized',function() {
         assert(true);
         done();
