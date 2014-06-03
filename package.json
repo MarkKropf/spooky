@@ -23,6 +23,6 @@
   "devDependencies": {
     "mocha": "*",
     "codeclimate-test-reporter": "*",
-    "istanbul" "*"
+    "istanbul": "*"
   }
 }
