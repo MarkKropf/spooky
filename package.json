@@ -5,7 +5,7 @@
   "author": "Mark Kropf",
   "private": true,
   "engines": {
-    "node": ">=0.6"
+    "node": "=0.10.28"
   },
   "dependencies": {
     "nconf": "*",
@@ -13,13 +13,14 @@
     "request": "*",
     "a2r-osc": "*",
     "artnet-node": "*",
-    "cron": "*",
-    "spi": "*",
-    "pi-gpio": "*"
+    "cron": "*"
   },
   "subdomain": "coil",
   "scripts": {
     "start": "node spooky.js",
     "test": "mocha --reporter nyan test/*"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
