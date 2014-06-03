@@ -19,6 +19,7 @@
   },
   "subdomain": "coil",
   "scripts": {
-    "start": "node spooky.js"
+    "start": "node spooky.js",
+    "test": "mocha --reporter nyan test/*"
   }
 }
