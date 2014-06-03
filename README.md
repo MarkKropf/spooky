@@ -1,6 +1,8 @@
 spooky
 ======
 
+[![Build Status](https://travis-ci.org/MarkKropf/spooky.svg?branch=master)](https://travis-ci.org/MarkKropf/spooky)
+
 Controlling lights spookily fast (spukhafte Fernwirkung) using nodejs.
 
 The interface to control all of the lighting fixutres is osc. Currently DMX lights are controlled via an artNet gateway. There is a very early 'attempt' at spi driven lights for raspberry pi users in spooky-spi.
