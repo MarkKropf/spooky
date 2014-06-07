@@ -3,6 +3,7 @@ spooky
 
 [![Build Status](https://travis-ci.org/MarkKropf/spooky.svg?branch=master)](https://travis-ci.org/MarkKropf/spooky)
 [![Code Climate](https://codeclimate.com/github/MarkKropf/spooky.png)](https://codeclimate.com/github/MarkKropf/spooky)
+[![Code Coverage](https://codeclimate.com/github/MarkKropf/spooky/coverage.png)](https://codeclimate.com/github/MarkKropf/spooky)
 
 Controlling lights spookily fast (spukhafte Fernwirkung) using nodejs.
 

@@ -18,7 +18,10 @@
   "subdomain": "spooky",
   "scripts": {
     "start": "node spooky.js",
-    "test": "mocha test/*"
+    "test": "npm run test-mocha && npm run test-coverage && npm run test-climate",
+    "test-mocha": "mocha test/*",
+    "test-coverage": "istanbul cover _mocha ./test/*",
+    "test-climate": "codeclimate < ./coverage/lcov.info"
   },
   "devDependencies": {
     "mocha": "*",
