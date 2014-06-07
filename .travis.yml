@@ -9,7 +9,6 @@ env:
   matrix:
     - TASKS='test-mocha'
     - TASKS='test-coverage'
-    - TASKS='test-climate'
 addons:
   code_climate:
     repo_token:
