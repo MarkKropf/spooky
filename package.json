@@ -15,7 +15,7 @@
     "artnet-node": "*",
     "cron": "*"
   },
-  "subdomain": "coil",
+  "subdomain": "spooky",
   "scripts": {
     "start": "node spooky.js",
     "test": "mocha test/*"
