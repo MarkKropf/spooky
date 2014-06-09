@@ -13,7 +13,7 @@ The following fixtures have been added:
 
 1. Chauvet Hurricane Hazer (yes, not a light)
 2. Chauvet Vue 6.1
-3. Chauvet Colorado 72 Tour **_New_**
+3. Chauvet Colorado 72 Tour
 3. Eliminator ED15 Dimmer
 4. Macetech Octobars
 
