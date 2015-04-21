@@ -1,3 +1,3 @@
 cd spooky
 npm install
-npm test
+npm test-mocha
