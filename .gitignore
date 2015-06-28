@@ -1,5 +1,5 @@
 # Ignore real config files
-#config.json
+config.json
 
 # Logs
 logs
