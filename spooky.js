@@ -12,7 +12,8 @@ spookyDmx.on('initialized', function() {
   console.log("[spooky] [dmx] Initialized");
   spookyFixtures.initialize(nconf.get('fixtures'),nconf.get('groups'),spookyDmx);
 });
-spookyDmx.on('updated', function() { spookyDmx.emitDmx(); });
+spookyDmx.on('updated', function() { spookyDmx.emitDmx();
+});
 spookyDmx.on('emitted', function() {  });
 spookyDmx.initialize(nconf.get("fixtures"));
 spookyOsc.initialize(nconf.get('host'), nconf.get('serverPort'),spookyFixtures);

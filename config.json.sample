@@ -64,6 +64,15 @@
     "startAddress": 17,
     "channels": 15,
     "oscAddress": "/colorado72"
+  },
+  {
+    "fixtureId": "7",
+    "name": "par1",
+    "fixtureType": "elationopti30",
+    "commType": "dmx",
+    "startAddress":32,
+    "channels": 7,
+    "oscAddress": "/elationopti30"
   }
   ],
   "groups": [
