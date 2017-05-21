@@ -12,7 +12,7 @@
     "underscore": "*",
     "request": "*",
     "a2r-osc": "*",
-    "artnet-node": "mauriciomassaia/artnet-node",
+    "artnet-node": "gunnebo-ab/artnet-node",
     "cron": "*"
   },
   "subdomain": "spooky",
