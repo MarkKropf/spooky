@@ -8,7 +8,3 @@ env:
     - secure: "EeUva72FvtmyMK+WAzArBW6RS/6hBErIDg1u1R6ig49zzwn0J/YJXpMb2K44fM/ILMto5M2VPLlw5Z2/L7XLZBAHHYd4AdK6KWk4p0mUVaw8EGtYWg/vuKbKacTKd6fTEKFHN2ygxmKrukaUXjR6SrLfuI1wUu1gwqOw8DJZCm0="
   matrix:
     - TASKS='test-mocha'
-addons:
-  code_climate:
-    repo_token:
-      secure: "EeUva72FvtmyMK+WAzArBW6RS/6hBErIDg1u1R6ig49zzwn0J/YJXpMb2K44fM/ILMto5M2VPLlw5Z2/L7XLZBAHHYd4AdK6KWk4p0mUVaw8EGtYWg/vuKbKacTKd6fTEKFHN2ygxmKrukaUXjR6SrLfuI1wUu1gwqOw8DJZCm0="
