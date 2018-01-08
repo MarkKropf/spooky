@@ -5,7 +5,7 @@
   "author": "Mark Kropf",
   "private": true,
   "engines": {
-    "node": "=0.10.28"
+    "node": "=3.3.0"
   },
   "dependencies": {
     "a2r-osc": "*",
