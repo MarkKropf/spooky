@@ -21,7 +21,7 @@
   "scripts": {
     "start": "node spooky.js",
     "test": "npm run test-mocha",
-    "test-mocha": "mocha test/*"
+    "test-mocha": "mocha test/* --exit"
   },
   "devDependencies": {
     "mocha": "^4.1.0"
