@@ -10,7 +10,7 @@
   "dependencies": {
     "a2r-osc": "*",
     "apa102-spi": "*",
-    "artnet-node": "github:gunnebo-ab/artnet-node#master",
+    "artnet-node": "github:MarkKropf/artnet-node#master",
     "cron": "^1.3.0",
     "nconf": "^0.10.0",
     "node-lifx-lan": "*",
