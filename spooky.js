@@ -15,16 +15,24 @@ nconf.get("fixtures").forEach(function(value) {
 });
 
 // Configure Needed protocols
+if (nconf.get('apa102')=='true') {
+  var spookyApa102 = require('./lib/protocols/apa102.js');
+  var spookyApa102 = new spookyApa102();
+  spookyApa102.on('initialized', function() {
+    console.log("[spooky] [Apa102] Protocol initialized");
+  });
+  spookyApa102.initialize(nconf.get("fixtures"));
+}
 if (nconf.get('lifx')=='true') {
   var SpookyLifx = require('./lib/protocols/lifx.js');
   var spookyLifx = new SpookyLifx();
   spookyLifx.on('initialized', function() {
     console.log("[spooky] [LIFX] Protocol initialized");
   });
-  spookyLifx.initialize(nconf);
+  spookyLifx.initialize(nconf.get("fixtures"));
 }
 if (nconf.get('dmx')=='true') {
-  var SpookyDmx = require('./lib/spooky-dmx.js');
+  var SpookyDmx = require('./lib/protocols/dmx.js');
   var spookyDmx = new SpookyDmx();
   spookyDmx.host = nconf.get('dmxGateway');
   spookyDmx.on('initialized', function() {

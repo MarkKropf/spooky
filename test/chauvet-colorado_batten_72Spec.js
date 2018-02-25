@@ -1,6 +1,6 @@
 var assert = require("assert");
 var Colorado72 = require('../lib/fixtures/chauvet-colorado_batten_72.js');
-var SpookyDmx = require("../lib/spooky-dmx.js");
+var SpookyDmx = require("../lib/protocols/dmx.js");
 var spookyDmx = new SpookyDmx();
 var nconf = require('nconf');
 

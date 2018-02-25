@@ -1,5 +1,5 @@
 var assert = require("assert");
-var SpookyDmx = require("../lib/spooky-dmx.js");
+var SpookyDmx = require("../lib/protocols/dmx.js");
 var spookyDmx = new SpookyDmx();
 var nconf = require('nconf');
 

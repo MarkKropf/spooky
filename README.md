@@ -13,7 +13,7 @@ The following fixtures have been added:
 2. Chauvet Vue 6.1
 3. Chauvet Colorado 72 Tour
 3. Eliminator ED15 Dimmer
-4. Macetech Octobars
+4. Adafruit Dotstar Strips
 
 All needed configuration for driving the fixtures is included in the config.json.
 
