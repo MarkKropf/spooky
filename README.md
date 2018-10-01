@@ -1,7 +1,7 @@
 spooky
 ======
 
-[![Build Status](http://ci.nebulous.company/api/v1/teams/main/pipelines/spooky/jobs/spooky-unit-tests/badge)](http://ci.nebulous.company/teams/main/pipelines/spooky)
+[![Build Status](http://ci.nebulous.company/api/v1/teams/markkropf/pipelines/spooky/jobs/spooky-unit-tests/badge)](http://ci.nebulous.company/teams/markkropf/pipelines/spooky)
 
 Controlling lights spookily fast (spukhafte Fernwirkung) using nodejs.
 
