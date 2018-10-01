@@ -5,17 +5,17 @@
   "author": "Mark Kropf",
   "private": true,
   "engines": {
-    "node": "=3.3.0"
+    "node": "=10.11.0"
   },
   "dependencies": {
     "a2r-osc": "*",
-    "apa102-spi": "*",
+    "apa102-spi": "0.0.5",
     "artnet-node": "github:MarkKropf/artnet-node#master",
-    "cron": "^1.3.0",
+    "cron": "^1.4.1",
     "nconf": "^0.10.0",
-    "node-lifx-lan": "*",
-    "request": "^2.83.0",
-    "underscore": "*"
+    "node-lifx-lan": "^0.3.1",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
   },
   "subdomain": "spooky",
   "scripts": {
@@ -24,6 +24,6 @@
     "test-mocha": "mocha test/* --exit"
   },
   "devDependencies": {
-    "mocha": "^4.1.0"
+    "mocha": "^5.2.0"
   }
 }
